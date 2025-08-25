@@ -81,7 +81,7 @@ int main() {
     printf("\nCódigo da Carta: %s", codigo);
     printf("\nNome da Cidade: %s", cidade);
     printf("\nPopulação: %d", pop);
-    printf("\nÁrea da Cidade (km):", area);
+    printf("\nÁrea da Cidade (km):%f", area);
     printf("\nPIB: %f", pib);
     printf("\nPontos Turísticos %d\n", pontos);
 
@@ -90,10 +90,9 @@ int main() {
     printf("\nCódigo da Carta: %s", codigo1);
     printf("\nNome da Cidade: %s", cidade1);
     printf("\nPopulação: %d", pop1);
-    printf("\nÁrea da Cidade (km):", area1);
+    printf("\nÁrea da Cidade (km): %f", area1);
     printf("\nPIB: %f", pib1);
     printf("\nPontos Turísticos %d\n", pontos1);
 
     return 0;
 }
-
